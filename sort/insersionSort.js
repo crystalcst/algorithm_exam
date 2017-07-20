@@ -1,4 +1,4 @@
-//插入排序算法：比较当前位置与前一个的大小
+                                        //插入排序算法：比较当前位置与前一个的大小
 function insertionSort(arr) {
   var len = arr.length;
   var temp;
@@ -12,7 +12,7 @@ function insertionSort(arr) {
   return arr;
 }
 
-insertionSort([1,23,3,5,7,4,13,675,34,24]);
+console.log(insertionSort([1,23,3,5,7,4,13,675,34,24]));
 
 //插入排序算法改进：比较，当arr[j-1]>arr[i]时候,赋值到当前j的位置，结束时候把副本的值赋值给arr[j]
 function insertionSortUpadate(arr) {
@@ -26,3 +26,4 @@ function insertionSortUpadate(arr) {
     }
     return arr;
 }
+console.log(insertionSortUpadate([1,23,3,5,7,4,13,675,34,24]));
