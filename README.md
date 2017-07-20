@@ -3,7 +3,7 @@ algorithm exam during learning
 * * *
 ### Sort Algorithm 排序算法
 ---------------------------------------
-###[1.selectionSort 选择排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/selectionSort.js)
+[1.selectionSort 选择排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/selectionSort.js)
 <p>(1)算法简介
 选择排序(Selection-sort)是一种简单直观的排序算法。它的工作原理：首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。</p>
 <p>(2)算法描述和实现
@@ -17,7 +17,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 最差情况：T(n) = O(n2)
 平均情况：T(n) = O(n2)
 </p>
-###[2.insertionSort 插入排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/insersionSort.js)
+[2.insertionSort 插入排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/insersionSort.js)
 <p>(1)算法简介
 插入排序（Insertion-Sort）的算法描述是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用in-place排序（即只需用到O(1)的额外空间的排序），因而在从后向前扫描过程中，需要反复把已排序元素逐步向后挪位，为最新元素提供插入空间。</p>
 <p>(2)算法描述和实现
@@ -34,7 +34,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 最坏情况：输入数组按降序排列。T(n) = O(n2)
 平均情况：T(n) = O(n2)
 </p>
-###[3.mergeSort 归并排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/mergeSort.js)
+[3.mergeSort 归并排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/mergeSort.js)
 <p>(1)算法简介
 归并排序是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。归并排序是一种稳定的排序方法。将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为2-路归并。
 </p>
@@ -49,7 +49,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 最差情况：T(n) = O(nlogn)
 平均情况：T(n) = O(nlogn)
 </p>
-###[4.bubbleSort 冒泡排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/bubbleSort.js)
+[4.bubbleSort 冒泡排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/bubbleSort.js)
 <p>(1)算法描述
 冒泡排序是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
 </p>
@@ -66,7 +66,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 当输入的数据是反序时
 平均情况：T(n) = O(n2)
 </p>
-###[5.shellSort 希尔排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/shellSort.js)
+[5.shellSort 希尔排序 demo](https://github.com/crystalcst/algorithm_exam/blob/master/sort/shellSort.js)
 <p>(1)算法简介
 希尔排序的核心在于间隔序列的设定。既可以提前设定好间隔序列，也可以动态的定义间隔序列。动态定义间隔序列的算法是《算法（第4版》的合著者Robert Sedgewick提出的。
 </p>
