@@ -69,3 +69,9 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 <2>.按增量序列个数k，对序列进行k 趟排序；<br/>
 <3>.每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。<br/>
 <img src="http://jbcdn2.b0.upaiyun.com/2016/09/ef9f6744ceba18ec7e9e1ae15f4f92e1.jpeg">
+
+### List 列表
+---------------------------------------
+(https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/list.js)
+[1.特点]</br>
+(1)有序，类似购物清单
