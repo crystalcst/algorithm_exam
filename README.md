@@ -72,13 +72,13 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 
 ### List 列表
 ---------------------------------------
-(https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/list.js)
+(https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/list.js)</br>
 [1.特点]</br>
 (1)有序，类似购物清单
 
 ### BST 二叉树
 ---------------------------------------
-(https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/bst.js)
+(https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/bst.js)</br>
 [1.二叉树概念和用途]</br>
 1、树是一种非线性的数据结构，分层存储</br>
 2、树被用来存储具有层级关系的数据，还被用来存储有序列表</br>
