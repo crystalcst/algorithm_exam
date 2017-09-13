@@ -70,6 +70,20 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 <3>.每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。<br/>
 <img src="http://jbcdn2.b0.upaiyun.com/2016/09/ef9f6744ceba18ec7e9e1ae15f4f92e1.jpeg">
 
+
+### Search Algorithm 检索算法
+---------------------------------------
+一、检索算法概念用途</br>
+1、数据查找是最基本的计算机编程任务</br>
+2、对计算机存储的数据执行最常见的两种操作是排序和检索，自从计算机产业伊始便是如此；</br>
+二、检索算法关键概念定义</br>
+1、在列表中查找分为数据有两种方式，顺序查找和二分查找。顺序查找适用于元素随机排列，二分查找用于已排列好的元素。</br>
+2、对于查找数据来说最简单的是从给第一个元素开始对列表元素进行查找，直到找到了想要的结果，被成为线性查找，他属于暴力查找的一种。</br>
+3、自组织数据：数据的位置并非由程序员在程序执行之前就组织好，而是在程序执行过程中由程序自动组织。80-20原则指对某一数据集执行的80%查找操作都是对其中20%数据元素进行查找。</br>
+4、二分查找：每猜一个数字会有三种结果，猜大了猜小了猜对了。</br>
+[1.seqSearch 顺序查找+自组织数据 demo](https://github.com/crystalcst/algorithm_exam/blob/master/search/find.js)<br/>
+[2.bindSearch 二分查找 demo](https://github.com/crystalcst/algorithm_exam/blob/master/search/bind.js)<br/>
+
 ### List 列表
 ---------------------------------------
 (https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/list.js)</br>
