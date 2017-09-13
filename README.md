@@ -84,6 +84,18 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 [1.seqSearch 顺序查找+自组织数据 demo](https://github.com/crystalcst/algorithm_exam/blob/master/search/find.js)<br/>
 [2.bindSearch 二分查找 demo](https://github.com/crystalcst/algorithm_exam/blob/master/search/bind.js)<br/>
 
+### advance Algorithm 高级算法
+---------------------------------------
+一、高级算法概念用途</br>
+1、动态规划和贪心算法</br>
+2、算法足够强大，一个简单的数据结构就能解决问题</br>
+二、高级算法关键概念定义</br>
+1、动态规划：动态规划被认为是一种与递归相反的技术。递归从顶部开始分解出多个小问题，合并成一个解决方案。动态规划解决方案从底部分解很多小问题解决掉，组成解决方案。</br>
+2、贪心算法：它是一种寻找“优质解”为手段达成整体解决方案的算法。这些优质的解决方案成为局部最优解。将有希望得到正确答案的最终解决方案成为全局最优解，“贪心”会用那些看起来似乎无法找到完整解决方案的问题，次优解也是可以接受的。</br>
+[1.dynamic 动态规划 demo](https://github.com/crystalcst/algorithm_exam/blob/master/advance/dynamic.js)<br/>
+[2.greed 贪心算法 demo](https://github.com/crystalcst/algorithm_exam/blob/master/advance/greed.js)<br/>
+
+
 ### List 列表
 ---------------------------------------
 (https://github.com/crystalcst/algorithm_exam/blob/master/dataStructure/list.js)</br>
